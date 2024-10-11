@@ -1,0 +1,7 @@
+.btnC{
+    border-radius:  20px;
+    padding: 10px 20px;
+    border: none;
+    background-color:var(--main-color);
+    color: white;
+}

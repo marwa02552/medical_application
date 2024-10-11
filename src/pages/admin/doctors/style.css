@@ -1,0 +1,71 @@
+.admin{
+    display: flex;
+    flex: 1;
+}
+.admin .content{
+margin-left: 260px;
+margin-top: 10px;
+}
+.admin .content .inputs{
+    display: flex;
+}
+.admin .content .addDoc{
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 5px;
+   height: 450px;
+   overflow-y: auto;
+   scrollbar-width: none;
+   -ms-overflow-style: none;  
+}
+.admin .content .addDoc::-webkit-scrollbar{
+    display: none;
+}
+.admin .content h3{
+    color: var( --main-text-color);
+    font-size: 20px;
+}
+.addDoc .aboutDoc{
+    display: flex;
+    flex-direction: column;
+}
+.addDoc .aboutDoc label{
+    margin-bottom: 5px;
+    color: var( --secondary-text-color);
+    font-size: 15px;
+}
+.addDoc .aboutDoc textarea{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid  #C1C1C1;
+    height: 100px;
+    margin-right: 30px;
+}
+.addDoc .inputfile div{
+    border-radius: 50px;
+    border: 1px solid  #C1C1C1;
+    display: inline;
+}
+.addDoc .inputfile{
+    display: flex;
+    align-items: center;
+}
+.addDoc .inputfile p{
+    color: var( --secondary-text-color);
+    font-size: 15px;
+}
+input[type="file"] {
+    display: none;
+  }
+  
+  /* Style the label to look like a button */
+  .custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Change background color on hover */
+ 

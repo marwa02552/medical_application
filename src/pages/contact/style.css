@@ -1,0 +1,52 @@
+.contact{
+    display: flex;
+    padding: 60px  200px ;
+}
+.contact img{
+    width: 350px;
+    height: 400px;
+}
+.contact .text{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.contact .text h2{
+    color: var(--secondary-text-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact .text div {
+    margin: 30px 0;
+    font-size: 15px;
+    color: var(--secondary-text-color);
+}
+.contact .text p{
+    font-size: 15px;
+    color: var(--secondary-text-color);
+}
+
+.contact .text .box{
+    color: black;
+    border: 1px black solid;
+    display: inline-block; /** This makes the border size depend on the content size */
+    padding: 10px 15px  ;
+    transition: all 0.6s ease; /* Smooth transition for the hover effect */
+
+}
+.contact .text .box:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width:768px){
+    .contact img{
+        width: 100%;
+    }   
+    .contact{
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .contact .text{
+        margin-left: 0px;
+
+    }
+}

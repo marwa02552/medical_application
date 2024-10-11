@@ -1,0 +1,81 @@
+/* Default styles for the doctor card */
+.docCard {
+    width: 252px; /* Set the default width for larger screens */
+    border: 1px solid #C9D8FF;
+    border-radius: 20px;
+    margin: 10px 12px;
+    box-sizing: border-box; /* Ensures padding/border are included in width */
+}
+
+/* Image inside the card */
+.docCard img {
+    width: 100%; /* Make the image take up the full width of the card */
+    height: 240px;
+    background-color: #EAEFFF;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover; /* Ensure the image scales without stretching */
+}
+
+/* Text section inside the card */
+.docCard .text {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+/* First paragraph (doctor's name) */
+.docCard p:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--main-text-color);
+}
+
+/* Last paragraph (specialization or other info) */
+.docCard p:last-child {
+    color: var(--secondary-text-color);
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+/* Flexbox styling for the status indicator */
+.docCard .text div {
+    color: var(--green);
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the "Available" text next to the circle icon */
+.docCard .text div span {
+    margin-left: 3px;
+    font-size: 15px;
+}
+
+/* Responsive styles for screens up to 768px (mobile/tablet) */
+@media (max-width: 768px) {
+    .docCard {
+        width: 100%;
+        /* Ensure the card takes full available width */
+        margin: 10px 0; /* Remove extra margins */
+       
+    }
+
+    .docCard img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0 0; /* Match the reduced border-radius */
+    }
+
+    .docCard .text {
+        margin-left: 10px; /* Adjust left margin for better fit */
+        margin-top: 10px;
+    }
+
+    .docCard p:first-child {
+        font-size: 16px; /* Slightly reduce font size on mobile */
+    }
+
+    .docCard p:last-child {
+        font-size: 14px; /* Adjust font size for better readability */
+        margin-top: -10px; /* Adjust spacing */
+    }
+}

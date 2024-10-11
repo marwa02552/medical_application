@@ -1,0 +1,67 @@
+.footer{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.footer div:first-child{
+display: flex;
+justify-content: space-between;
+
+}
+.footer div:first-child div {
+    display: flex;
+    flex-direction: column;
+}
+.footer div:first-child div:first-child  img{
+    width: 180px;
+}
+.footer .line{
+    border-bottom: 1px solid var(--secondary-text-color);
+}
+.footer div:first-child div:first-child  p{
+    width: 400px;
+    color: var(--secondary-text-color);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+.footer div:first-child h3{
+    color: var(--main-text-color);
+    font-size: 18px;
+    font-weight:500;
+}
+.footer div:first-child a{
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    margin: 5px 0px 0px 10px ;
+    font-size: 15px;
+
+}
+.footer .last{
+    text-align: center;
+    color: var(--secondary-text-color);
+    font-size: 15px;
+    margin-top: 30px;
+}
+@media (max-width:768px) {
+    .footer div:first-child{
+        display: flex;
+        flex-direction: column;  
+        align-items: flex-start;
+        }
+
+        .footer div:first-child div:first-child  p{
+            width: 100%;
+            text-align: justify;
+            margin-left:0;
+        }
+        .footer div:first-child a{
+            margin: 0px;
+        }
+        .footer div:first-child h3{
+            margin-top: 10px;
+        }
+        .footer .line{
+            margin-top: 20px;
+        }
+}

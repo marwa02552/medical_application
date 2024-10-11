@@ -1,0 +1,30 @@
+.sidebar a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-size: 17px;
+    margin: 12px 0;
+    text-align: center;
+}
+
+.sidebar a .icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    background-color: white;
+    height: 100vh;
+    padding-top: 50px;
+    border-right: solid  1px  #ABABAB;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    z-index: 1;
+
+}

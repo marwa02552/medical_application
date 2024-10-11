@@ -1,0 +1,54 @@
+.aboutPage .choseUs{
+    display: flex;
+    justify-content: space-between;
+
+}
+.aboutPage .choseUs div{
+    border: 1px solid var(--secondary-text-color);
+    padding: 50px;
+}
+.aboutPage .choseUs div h2{
+font-size: 22px;
+color: var(--main-text-color);
+}
+.aboutPage .choseUs div p{
+    font-size: 15px;
+    color: var(--secondary-text-color);
+}
+.aboutPage .about{
+    display: flex;
+    margin: 30px 0;
+}
+.aboutPage .about img{
+    height: 450px;
+    width: 400px;
+}
+.aboutPage .about .text{
+    margin: 40px;
+}
+.aboutPage .about .text p{
+    font-size:  14px;
+    color: var(--secondary-text-color);
+}
+.aboutPage .about .text  h2{
+    color: var(--main-text-color);
+    font-size: 22px;
+}
+@media (max-width:768px){
+    .aboutPage .choseUs{
+        flex-wrap: wrap;
+    }
+    .aboutPage .about{
+        flex-wrap: wrap;
+
+    }
+    .aboutPage .about .text{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .aboutPage .about img{
+        width: 100%;
+    }
+    
+
+}

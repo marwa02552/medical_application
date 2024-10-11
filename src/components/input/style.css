@@ -1,0 +1,25 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px 20px 0px;
+    
+}
+.input label{
+    margin-bottom: 5px;
+    color: var( --secondary-text-color);
+    font-size: 15px;
+    
+}
+.input input ,select{
+border-radius: 5px;
+background-color: white;
+border: #C1C1C1 solid 1px;
+height: 40px;
+padding-left: 8px;
+color: var( --main-text-color);
+font-size: 15px;
+width: 350px;
+
+}
+
+

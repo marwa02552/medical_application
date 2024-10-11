@@ -1,0 +1,25 @@
+.adminHeader{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    border: 1px solid #ABABAB;
+    align-items: center;
+    padding: 5px 30px;  
+}
+.adminHeader div:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.adminHeader div:first-child .adminBtn{
+    font-size: 14px;
+    border: var(--secondary-text-color) solid 1px;
+    border-radius: 20px;
+    padding: 2px 4px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.adminHeader div:first-child img{
+    width: 180px;
+}
